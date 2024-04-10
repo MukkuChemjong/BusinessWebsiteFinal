@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product-page.css">
+    <title>Product</title>
+</head>
+<body>
+    <nav id="navigation">
+        <div id="nav-container">
+            <a href="index.html">
+                <img src="images/logo.png">
+            </a>
+
+            <div id="nav-buttons">
+                <a href="products-page.html">
+                    <h2>Products</h2>
+                </a>
+
+                <a href="contact.html">
+                    <h2>Contact</h2>
+                </a>
+            </div>
+
+            <div id="socials-container">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src='images/socials/insta.png'  id="social-image">
+                </a>
+                
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/socials/facebook.png" id="social-image">
+                </a>
+
+                <a href="https://twitter.com/">
+                    <img src="images/socials/x-logo.png" id="social-image">
+                </a>
+
+                <a href="https://www.linkedin.com/">
+                    <img src="images/socials/linkedin.png" id="social-image">
+                </a>
+            </div>
+
+            <div class="cart-section">
+                <a href="cart-page.html">
+                    <img src="images/cart.png" id="social-image">
+                </a>
+                <h2 class="cart-amount">0</h2>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div id="main-section">
+            <div id="gallery-section">
+                <img src="images/coffee/cappucino.jpg" id="gallery-image1">
+                <img src="images/coffee2.jpg" id="gallery-image2">
+                <img src="images/coffee3.jpg" id="gallery-image3">
+            </div>
+
+            <div id="main-image-container" class="main-image-container">
+                <img src="images/coffee/cappucino.jpg">
+                <img src="images/coffee2.jpg">
+                <img src="images/coffee3.jpg">
+            </div>
+
+            <a id="arrow-image-back">
+                <img src="images/arrow.png" id="arrow-image">
+            </a>
+
+            <a id="arrow-image-forward">
+                <img src="images/arrow2.png" id="arrow-image">
+            </a>
+
+            <div id="product-information">
+                <h1 id="product-name">Cappucino</h1>
+
+                <h4 id="product-price">CA$2.00</h4>
+
+                <p id="product-ingredients">
+                    1 Cup. Ingredients: 2 ounces (2 shots) espresso*, 4 ounces hot water
+                </p>
+
+                <div>
+                    <p>Quantity: </p>
+                    <input id="quantity" type="number" value="1" min="1">
+                </div>
+
+                <button id="purchase-button" onclick="addToCart()">Purchase</button>
+            </div>
+        </div>
+
+        <div id="review-section">
+            <div class="add-review">
+                <h1 id="review-title">Write a Review</h1>
+                <div class="reviews-topcontainer">
+                    <div class="stars">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                    <textarea id="review-text" placeholder="Write your review..."></textarea>
+                    <button class="submit-review">Submit</button>
+                </div>
+                
+                <div id="review-distribution">
+                    <div id="distribution-container">
+                        <p>5 star</p>
+                        <progress id="5bar" value="50" max="100"></progress>
+                        <p id="percent5">50%</p>
+                    </div>
+
+                    <div id="distribution-container">
+                        <p>4 star</p>
+                        <progress id="4bar" value="50" max="100"></progress>
+                        <p id="percent4">50%</p>
+                    </div>
+
+                    <div id="distribution-container">
+                        <p>3 star</p>
+                        <progress id="3bar" value="0" max="100"></progress>
+                        <p id="percent3">0%</p>
+                    </div>
+
+                    <div id="distribution-container">
+                        <p>2 star</p>
+                        <progress id="2bar" value="0" max="100"></progress>
+                        <p id="percent2">0%</p>
+                    </div>
+
+                    <div id="distribution-container">
+                        <p>1 star</p>
+                        <progress id="1bar" value="0" max="100"></progress>
+                        <p id="percent1">0%</p>
+                    </div>
+                </div>
+
+            </div>        
+            
+            <div class="reviews">
+                <h1 id="review-title">Customer Reviews</h1>
+                <div class="review">
+                    <span class="star-active" data-value="1">&#9733;</span><span class="star-active" data-value="2">&#9733;</span><span class="star-active" data-value="3">&#9733;</span><span class="star-active" data-value="4">&#9733;</span><span class="star-active" data-value="5">&#9733;</span>
+                </div>
+
+                <div class="review">
+                    <span class="star-active" data-value="1">&#9733;</span><span class="star-active" data-value="2">&#9733;</span><span class="star-active" data-value="3">&#9733;</span><span class="star-active" data-value="4">&#9733;</span><span class="review-star" data-value="5">&#9733;</span>
+                </div>               
+
+                <div class="review">
+                    <span class="star-active" data-value="1">&#9733;</span><span class="star-active" data-value="2">&#9733;</span><span class="star-active" data-value="3">&#9733;</span><span class="star-active" data-value="4">&#9733;</span><span class="star-active" data-value="5">&#9733;</span>
+                </div>
+
+                <div class="review">
+                    <span class="star-active" data-value="1">&#9733;</span><span class="star-active" data-value="2">&#9733;</span><span class="star-active" data-value="3">&#9733;</span><span class="star-active" data-value="4">&#9733;</span><span class="review-star" data-value="5">&#9733;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div  id="business-info">
+            <div id="business-info-container">
+                <h2>Kohee Time</h2>
+                <p>Sample Address Information</p>
+                <p>Scarborough, Ontario</p>
+                <p>mukkuhang1@gmail.com</p>
+                <p>(416) 834-0152</p>
+            </div>
+    
+            <div id="socials-container-business">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/socials/insta.png"  id="social-image-business">
+                </a>
+                
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/socials/facebook.png"id="social-image-business">
+                </a>
+
+                <a href="https://twitter.com/">
+                    <img src="images/socials/x-logo.png" id="social-image-business">
+                </a>
+
+                <a href="https://www.linkedin.com/">
+                    <img src="images/socials/linkedin.png" id="social-image-business">
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="product-page.js"></script>
+</body>
+</html>

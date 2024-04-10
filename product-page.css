@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+/*Header section*/
+#navigation{
+    width: 100%;
+    background-color: #f4d6b0;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: #2a110c;
+}
+
+#social-image{
+    width: 30px;
+    height: 30px;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: -275px;
+}
+
+.cart-section{
+    display: flex;
+    height: 30px;
+}
+
+.cart-amount{
+    margin-top: 5px;
+}
+
+/*Gallery Section*/
+#main-section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 800px;
+}
+
+#gallery-section{
+    margin-top: 59px;
+    width: 100px;
+}
+
+#gallery-section:hover{
+    cursor: pointer;
+}
+
+#gallery-image1, #gallery-image2, #gallery-image3{
+    width: 90px;
+    height: 90px;
+}
+
+#gallery-image:hover{
+    cursor: pointer;
+}
+
+/*Main image section*/
+
+#arrow-image-back{
+    position: absolute;
+    top: 594px;
+    left: 433px;
+    width: 100px;
+}
+
+#arrow-image-forward{
+    position: absolute;
+    top: 594px;
+    left: 1065px;
+    width: 100px;
+}
+
+#arrow-image{
+    width:inherit;
+    height: inherit;
+}
+
+#arrow-image:hover{
+    cursor: pointer;
+}
+
+#main-image-container{
+    width: 800px;
+    height: 800px;
+}
+
+#main-image-container img{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 263px;
+    left: 396px;
+    display: none;
+}
+
+#main-image-container img.active {
+    display: block;
+}
+
+#main-image-container img:first-child{
+    display: block;
+}
+
+/*Product information section*/
+#product-information{
+    margin-left: 425px;
+    margin-top: 174px;
+}
+
+#product-name{
+    font-size: 40px;
+}
+
+#product-price{
+    font-size: 20px;
+}
+
+#product-ingredients{
+    font-size: 18px;
+}
+
+input{
+    height: 42px;
+    width: 92px;
+    padding: 10px;
+    margin-top: -11px;
+    margin-bottom: 18px;
+}
+
+#purchase-button{
+    height: 60px;
+    width: 378px;
+    font-size: 18px;
+}
+
+/*Review Section*/
+.reviews{
+    width: 800px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.review{
+    text-align: start;
+}
+
+.add-review{
+    margin-left: 200px;
+}
+
+#review-section{
+    display: flex;
+    margin-top: 81px;
+}
+
+.reviews-topcontainer{
+    display: block;
+    text-align: center;
+}
+
+#review-text{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.submit-review{
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stars{
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#review-title{
+    font-size: 40px;
+    text-align: center;
+}
+
+#distribution-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -16px;
+}
+
+progress{
+    width: 214px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 20px;
+    margin-top: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 3px;
+}
+
+.star{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star-active{
+    font-size: 24px;
+    color: gold;
+}
+
+.review-star{
+    font-size: 24px;
+}
+
+.review-star.active{
+    color: gold;
+}
+
+.star:hover, .star.active{
+    color: gold;
+}
+
+.partial-star{
+    display: inline-block;
+    font-size: 20px;
+}
+
+/*Business Section*/
+
+#business-info{
+    background-color: #29110e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#business-info-container{
+    color: #e6d4c0;
+}
+
+#socials-container-business{
+    height: 108px;
+    width: 108px;
+}
+
+#social-image-business{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+

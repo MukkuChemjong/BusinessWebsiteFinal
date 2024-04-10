@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+/*Header section*/
+#navigation{
+    width: 100%;
+    background-color: #f4d6b0;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: #2a110c;
+}
+
+#social-image{
+    width: 30px;
+    height: 30px;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: -275px;
+}
+
+.cart-section{
+    display: flex;
+    height: 30px;
+}
+
+.cart-amount{
+    margin-top: 5px;
+}
+
+/*Main Section*/
+.main-section{
+    height: 711px;
+}
+.productinfo-container{
+    width: 1050px;
+    height: 150px;
+}
+
+.productInfoDiv{
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.products-container, .cart-title{
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container{
+    height: 150px;
+    width: 150px;
+}
+
+.product-name{
+    margin-left: 21px;
+}
+
+.total-container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.total-section{
+    width: 1051px;
+    text-align: right;
+}
+
+.total-top-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 400px;
+    margin-left: 652px;
+}
+
+.checkout{
+    width: 400px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*Business Section*/
+
+#business-info{
+    background-color: #29110e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#business-info-container{
+    color: #e6d4c0;
+}
+
+#socials-container-business{
+    height: 108px;
+    width: 108px;
+}
+
+#social-image-business{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}

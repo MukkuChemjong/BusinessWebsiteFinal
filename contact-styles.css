@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+/*Header Section*/
+#navigation{
+    width: 100%;
+    background-color: #f4d6b0;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: #2a110c;
+}
+
+#social-image{
+    width: 30px;
+    height: 30px;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: -275px;
+}
+
+
+.cart-section{
+    display: flex;
+    height: 30px;
+}
+
+.cart-amount{
+    margin-top: 5px;
+}
+
+/*Contact Section*/
+#contact-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    height: 566px;
+}
+
+#contact-title{
+    font-size: 39px;
+}
+
+#gmail{
+    margin-bottom: -10px;
+}
+
+#address{
+    margin-bottom: -10px;
+}
+
+#fullname-container{
+    display: flex;
+}
+
+#name-input{
+    height: 40px;
+    width: 293px;
+    margin-right: 10px;
+}
+
+#email-input{
+    width: 600px;
+    height: 40px;
+}
+
+#message-input{
+    width: 600px;
+    height: 100px;
+}
+
+.send-button{
+    height: 60px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/*Business Information Section*/
+#business-info{
+    background-color: #29110e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#business-info-container{
+    color: #e6d4c0;
+}
+
+#socials-container-business{
+    height: 108px;
+    width: 108px;
+}
+
+#social-image-business{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}

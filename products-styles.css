@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+
+/*Header Section*/
+#navigation{
+    width: 100%;
+    background-color: #f4d6b0;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: #45354E;
+}
+
+#social-image{
+    width: 30px;
+    height: 30px;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: #2a110c;
+}
+
+.cart-section{
+    display: flex;
+    height: 30px;
+}
+
+.cart-amount{
+    margin-top: 5px;
+}
+
+
+/*Product Section*/
+#products-container{
+    display: grid;
+    grid-template-columns: 375px 375px 375px 375px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.product-americano, .product-macchiato, .product-cappuccino, .product-flatwhite, .product-latte, .product-cortado, .product-caffemocha, .product-affogato{
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#product-detail-container{
+    width: 324px;
+    margin-bottom: 38px;
+}
+
+#product-image{
+    width: 319px;
+    height: 253px;
+    border: 2px solid black;
+}
+
+#product-discription{
+    text-align: center;
+}
+
+#social-image{
+    width: 30px;
+    height: 30px;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+/*Business Information Section*/
+#business-info{
+    background-color: #29110e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#business-info-container{
+    color: #e6d4c0;
+}
+
+#socials-container-business{
+    height: 108px;
+    width: 108px;
+}
+
+#social-image-business{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
